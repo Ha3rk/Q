@@ -1,8 +1,8 @@
 
 # The following code has the return type specified with ()->, as allowed by Python 3.5,
-# As a error handling technique.
+# ..as a error handling technique.
 def inputer() -> int:
-    # The inouts n,a,b are type cast as string, so it is inconsequential that we may have other input types
+    # The inputs n,a,b are type cast as string, so it is inconsequential that we may have other input types
     n = str(input("here: "))
     a = str(input("here: "))
     b = str(input("here: "))
